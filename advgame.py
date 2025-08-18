@@ -4,13 +4,14 @@
 # Description: A simple text-based adventure game.
 
 def start_game():
-    """Start the adventure game."""
-    print("You are in a dark forest. You see two paths.")
-    choice = input("Do you go left or right? ").lower()
+    print("You are in a dark forest. You see three paths.")
+    choice = input("Do you go left, right, or straight? ").lower()
     if choice == "left":
         print("You find a treasure chest!")
     elif choice == "right":
         print("You encounter a monster!")
+    elif choice == "straight":
+        print("You discover a hidden village.")
     else:
         print("Invalid choice. Game over.")
 
