@@ -29,7 +29,19 @@ def load_game(filename="savegame.json"):
     except FileNotFoundError:
         print("No saved game found.")
         return None
+def display_ascii_art():
+    art = """
+      _____
+     /     \\
+    | () () |
+     \\  ^  /
+      |||||
+      |||||
+    """
+    print(art)
 
+# Example usage
+display_ascii_art()
 # Example usage in the game loop
 state = {"location": "forest", "inventory": ["sword"]}
 save_game(state)
