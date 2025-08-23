@@ -1,5 +1,3 @@
-### **Repository 11: Text-Based Adventure Game**
-```python
 # Repository: python-text-adventure
 # Description: A simple text-based adventure game.
 
